@@ -1,0 +1,73 @@
+body {
+   background-color: background;
+}
+
+.titulo-nosotros, .titulo-servicios, .titulo-mecanica {
+   background-color: buttonhighlight;         
+}     
+
+
+
+.boton-wsp {
+            display: inline-flex; /* Usar flexbox para centrar el ícono */
+            align-items: center; /* Alinear verticalmente */
+            padding: 10px; /* Padding alrededor del ícono */
+            background-color: #25D366; /* Color de WhatsApp */
+            color: white;
+            border: none;
+            background: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+
+        .boton-wsp img {
+            width: 50px; /* Ancho del ícono */
+            height: 50px; /* Alto del ícono */
+            margin-right: 10px; /* Espacio entre el ícono y el texto */
+        }
+
+        .boton-wsp:hover {
+            background-color: #128C7E; /* Color más oscuro al pasar el mouse */
+        }
+
+.icon {
+   position: fixed;
+            top: 20px;
+            left: 10px;
+            z-index: 100;         
+}
+
+
+h1 {
+    color: darkblue;
+    display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            height: 10vh; /* Opcional: ocupa toda la altura de la ventana */
+            animation: slide-fade 4s ease-in-out infinite;
+            font-family: 'arial black', sans-serif;
+}
+
+@keyframes slide-fade {
+            0% {
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+            50% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(50px);
+                opacity: 0;
+            }
+        }
+
+ 
+        
